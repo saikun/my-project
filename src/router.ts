@@ -23,6 +23,11 @@ export default new Router({
       path:'/formschema1',
       name:'formschema1',
       component: () => import('./views/Formschema1.vue'),
+    },
+    {
+      path:'/subscription',
+      name:'subscription',
+      component: () => import('./views/Subscription.vue'),
     }
   ],
 });
